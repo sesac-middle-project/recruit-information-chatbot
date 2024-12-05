@@ -6,6 +6,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import time
+import os
 
 # 크롤링할 직무 리스트
 job_titles = [ 
@@ -70,16 +71,21 @@ for query in job_titles:
                     title = link_element.get_attribute('title')
                     href = link_element.get_attribute('href')
                     corp_name = job.find_element(By.CLASS_NAME, 'corp_name').find_element(By.TAG_NAME, 'a').text
-                    area_element = job.find_element(By.XPATH, '//*[@id="recruit_info_list"]/div[1]/div[1]/div[2]/div[3]/span[1]/a[1]')
+                    area_element = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[1]/a[1]')
                     area = area_element.text
-                    area_gu_element = job.find_element(By.XPATH, '//*[@id="recruit_info_list"]/div[1]/div[1]/div[2]/div[3]/span[1]/a[2]')
-                    area_gu = area_gu_element.text
-                    experience_element = job.find_element(By.XPATH, '//*[@id="recruit_info_list"]/div[1]/div[1]/div[2]/div[3]/span[2]')
+                    try:
+                        area_gu_element = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[1]/a[2]')
+                        area_gu = area_gu_element.text
+                    except Exception:
+                        area_gu = None 
+                    experience_element = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[2]')
                     experience = experience_element.text
-                    education_element = job.find_element(By.XPATH, '//*[@id="recruit_info_list"]/div[1]/div[1]/div[2]/div[3]/span[3]')
+                    education_element = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[3]')
                     education = education_element.text
                     date = job.find_element(By.XPATH, './/div[@class="job_date"]/span[@class="date"]').text
+
                     all_results.append({'회사': corp_name, '제목': title, 'URL': href, '경력' : experience, '학력' : education, '지역':area,'지역(구)':area_gu ,'마감일':date, '직무': query})
+                    # all_results.append({'회사': corp_name, '제목': title, 'URL': href, '경력' : experience, '학력' : education, '지역':area,'마감일':date, '직무': query})
                 except Exception as e:
                     print(f"오류 발생: {e}")
             
@@ -104,8 +110,17 @@ for query in job_titles:
 end_time = time.time()
 print(f"전체 크롤링 완료. 소요 시간: {round(end_time - start_time, 2)}초")
 
-# 데이터 CSV 저장
-df = pd.DataFrame(all_results)
-df.to_csv('saramin_jobs.csv', index=False, encoding='utf-8-sig')
 
-print("CSV 저장 완료: saramin_jobs.csv")
+# 데이터 CSV 저장
+output_file = 'saramin_jobs.csv'
+
+# 파일이 이미 존재하면 삭제
+if os.path.exists(output_file):
+    os.remove(output_file)
+    print(f"기존 파일 삭제 완료: {output_file}")
+
+# 새로운 데이터 저장
+df = pd.DataFrame(all_results)
+df.to_csv(output_file, index=False, encoding='utf-8-sig')
+
+print(f"CSV 저장 완료: {output_file}")
