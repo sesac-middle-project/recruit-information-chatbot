@@ -12,7 +12,7 @@ import os
 job_titles = [ 
     '데이터 분석가',
     '데이터 엔지니어',
-    'AL서비스 개발자',
+    'AI 개발자',
     '챗봇 개발자',
     '클라우드 엔지니어',
     'API 개발자',
@@ -57,8 +57,8 @@ for query in job_titles:
     time.sleep(3)
     
     # 각 페이지 반복 크롤링 (5페이지까지)
-    for page in range(1, 6):
-        print(f'{query} 크롤링 {page} 페이지 작업 중')
+    for page in range(0, 5):
+        print(f'{query} 크롤링 {page + 1} 페이지 작업 중')
         try:
             # 채용 공고 추출
             job_listings = WebDriverWait(driver, 10).until(
@@ -68,31 +68,37 @@ for query in job_titles:
             for job in job_listings:
                 try:
                     link_element = job.find_element(By.CLASS_NAME, 'job_tit').find_element(By.TAG_NAME, 'a')
+                    # 구인공고 제목
                     title = link_element.get_attribute('title')
+                    # 구인공고 url
                     href = link_element.get_attribute('href')
+                    # 구인공고 업체명
                     corp_name = job.find_element(By.CLASS_NAME, 'corp_name').find_element(By.TAG_NAME, 'a').text
+                    # 구인공고 지역
                     area_element = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[1]/a[1]')
                     area = area_element.text
+                    # 구인공고 지역(구)
                     try:
                         area_gu_element = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[1]/a[2]')
                         area_gu = area_gu_element.text
                     except Exception:
                         area_gu = None 
+                    # 구인공고 경력, 학력
                     experience_element = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[2]')
                     experience = experience_element.text
                     education_element = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[3]')
                     education = education_element.text
+                    # 구인공고 마감일
                     date = job.find_element(By.XPATH, './/div[@class="job_date"]/span[@class="date"]').text
 
                     all_results.append({'회사': corp_name, '제목': title, 'URL': href, '경력' : experience, '학력' : education, '지역':area,'지역(구)':area_gu ,'마감일':date, '직무': query})
-                    # all_results.append({'회사': corp_name, '제목': title, 'URL': href, '경력' : experience, '학력' : education, '지역':area,'마감일':date, '직무': query})
                 except Exception as e:
                     print(f"오류 발생: {e}")
-            
-            # 다음 페이지로 이동
-            next_button = job.find_element(By.XPATH, f'//*[@id="recruit_info_list"]/div[2]/div/a[{page}]')
-            next_button.click()
-            time.sleep(5) 
+            if page > 0:
+                # 다음 페이지로 이동
+                next_button = job.find_element(By.XPATH, f'//*[@id="recruit_info_list"]/div[2]/div/a[{page}]')
+                next_button.click()
+                time.sleep(5) 
         
         except Exception as e:
             print(f"페이지 이동 중 오류 발생: {e}")
