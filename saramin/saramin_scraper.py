@@ -86,12 +86,14 @@ for query in job_titles:
                     # 구인공고 경력, 학력
                     experience_element = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[2]')
                     experience = experience_element.text
-                    education_element = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[3]')
-                    education = education_element.text
+                    try:
+                        contractType = job.find_element(By.XPATH, './/div[@class="job_condition"]/span[4]').text
+                    except Exception:
+                        contractType = None
                     # 구인공고 마감일
-                    date = job.find_element(By.XPATH, './/div[@class="job_date"]/span[@class="date"]').text
+                    # date = job.find_element(By.XPATH, './/div[@class="job_date"]/span[@class="date"]').text
 
-                    all_results.append({'회사': corp_name, '제목': title, 'URL': href, '경력' : experience, '학력' : education, '지역':area,'지역(구)':area_gu ,'마감일':date, '직무': query})
+                    all_results.append({'회사': corp_name, '제목': title, 'URL': href, '경력' : experience, '계약형태' : contractType, '지역':area,'지역(구)':area_gu , '직무': query})
                 except Exception as e:
                     print(f"오류 발생: {e}")
             if page > 0:
