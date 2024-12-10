@@ -67,8 +67,6 @@ system_message = """
 
     Streamlit에서 이 표를 출력할 때는 `st.markdown()` 함수와 Markdown 테이블 형식을 활용하면 돼.
 
-    어떤 직무에 대해 물어본다면 해당 직무에 대해 
-
     # context: {context}
     # question: {question}
     # answer:
@@ -86,6 +84,18 @@ coordination = """
     해당 직무의 이름, 주요 업무 및 책임, 필요한 역량(학력, 경험, 기술 등)을 사용자가 알아보기 깔끔하게 설명해줘!
     만약 사용자가 특정 내용에 대해 질문을 한다면 네가 알고 있는만큼 설명해주면 돼.
     절대 없는 내용을 창조하면 안돼. 모르는 내용일 경우 '알 수 없는 정보입니다.' 라고 출력하면 돼.
+
+    만약 사용자가 직무를 제시하면서 이전에 출력됐던 공고를 모두 출력해달라고 하면 메모리에 저장된 해당 직무 관련 공고들을 전부 밑의 형식으로 출력해줘.
+    출력 형식은 표 형식으로 출력되며, 각 공고는 번호(idx), 회사이름, 공고이름, URL을 포함해야 해.
+    URL은 Streamlit에서 지원 가능한 형태로 링크를 생성해야 하며, 다음과 같이 출력하면 돼:
+
+    | idx | 회사이름 | 공고이름 | URL |
+    |-----|----------|----------|-----|
+    | 1   | 회사이름1 | 공고이름1 | [URL](해당 url) |
+    | 2   | 회사이름2 | 공고이름2 | [URL](해당 url) |
+    | ... | ...      | ...      | ... |
+
+    Streamlit에서 이 표를 출력할 때는 `st.markdown()` 함수와 Markdown 테이블 형식을 활용하면 돼.
 
     # question: {question}
     # answer: 
@@ -160,7 +170,7 @@ def process_user_question(question):
 
 # 세션 상태 초기화
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "content": "원하시는 직무, 신입/경력, 지역을 선택해주세요"}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "원하시는 직무, 신입/경력, 지역을 선택해주세요\n\n혹은 직무에 대한 질문을 채팅에 입력해주세요"}]
 
 # 사이드바: 직무, 경력, 지역 선택
 with st.sidebar:
@@ -176,14 +186,18 @@ with st.sidebar:
     # 지역 선택
     loc_options = ['서울', '경기', '인천', '대전', '광주', '대구', '울산', '부산', '강원', 
                    '세종', '충북', '충남', '전북', '전남', '경북', '경남', '제주', '해외']
-    selected_loc = st.selectbox("지역을 선택하세요:", loc_options, key="selected_loc")
+    selected_loc = st.multiselect("지역을 선택하세요:", loc_options, key="selected_loc")
 
     # 채용 공고 검색 버튼
-    if st.button("채용 공고 검색"):
+    if st.button("🔍 조회"):
+        if selected_loc:
+            loc_text = ", ".join(selected_loc)
+        else:
+            loc_text = "모든 지역"
         query = f"{selected_loc}에서 {selected_exp}인 {selected_job} 직무를 채용하는 공고 알려줘"
         st.session_state["messages"].append({
             "role": "user",
-            "content": f"{selected_loc}에 {selected_exp}인 {selected_job} 직무를 채용하는 공고 알려줘."
+            "content": query
         })
         st.chat_message("user").write(query)
         
@@ -196,7 +210,7 @@ with st.sidebar:
         st.chat_message("assistant").write(response)
 
 # 앱 제목 및 설명
-st.title(" Job Search Chatbot")
+st.title("Job Search Chatbot 💭")
 st.caption("🚀 A Streamlit chatbot powered by OpenAI")
 
 # 기존 채팅 메시지 출력
@@ -204,7 +218,7 @@ for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
 
 # 사용자 질문 입력 처리
-user_input = st.chat_input("궁금한 직무의 질문을 입력하세요:")
+user_input = st.chat_input("직무에 대한 질문을 입력하세요:")
 if user_input:
     st.session_state["messages"].append({"role": "user", "content": user_input})
     st.chat_message("user").write(user_input)
