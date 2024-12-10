@@ -43,10 +43,9 @@ if 'memory' not in st.session_state:
         memory_key="chat_history", 
         return_messages=True
     )
-st.write(st.session_state.memory.load_memory_variables({}))
 
 # LLM 설정
-llm = ChatOpenAI(model='gpt-4o', temperature=0.1)
+
 
 retriever = preprocessing()
 
@@ -54,6 +53,7 @@ retriever = preprocessing()
 system_message = """
     너는 입력된 question 속에 포함된 직무, 경력, 선호 지역에 맞는 채용 공고를 다섯 개씩 출력하는 탐색 AI야.
     검색된 context들 중 입력된 직무와 같은 카테고리인 채용 공고를 찾아오면 돼.
+    데이터 중 경력 여부가 신입, 경력인 경우 신입일 때와 경력일 때 둘 다 추가해도 돼.
     공고이름에 직무가 들어가는 공고를 우선으로 출력하고, 그 이외에는 랜덤으로 출력해줘.
     만약 사용자가 더 많은 공고를 필요로 한다면, 같은 카테고리에서 이전에 네가 가져온 공고들을 제외하고 나머지 공고들 중 다섯 개를 뽑아서 가져와서 출력해줘.
     출력 형식은 표 형식으로 출력되며, 각 공고는 번호(idx), 회사이름, 공고이름, URL을 포함해야 해.
@@ -67,6 +67,8 @@ system_message = """
 
     Streamlit에서 이 표를 출력할 때는 `st.markdown()` 함수와 Markdown 테이블 형식을 활용하면 돼.
 
+    어떤 직무에 대해 물어본다면 해당 직무에 대해 
+
     # context: {context}
     # question: {question}
     # answer:
@@ -78,12 +80,29 @@ prompt = ChatPromptTemplate.from_messages([
     ('human', '{question}'),
 ])
 
+coordination = """
+    너는 직무에 대한 설명을 친절하게 해주는 잡 코디야.
+    사용자가 어떠한 직무에 대해 설명해달라고 입력하면,
+    해당 직무의 이름, 주요 업무 및 책임, 필요한 역량(학력, 경험, 기술 등)을 사용자가 알아보기 깔끔하게 설명해줘!
+    만약 사용자가 특정 내용에 대해 질문을 한다면 네가 알고 있는만큼 설명해주면 돼.
+    절대 없는 내용을 창조하면 안돼. 모르는 내용일 경우 '알 수 없는 정보입니다.' 라고 출력하면 돼.
+
+    # question: {question}
+    # answer: 
+"""
+
+prompt_qa = ChatPromptTemplate.from_messages([
+    ('system', coordination),
+    MessagesPlaceholder(variable_name='chat_history'),
+    ('human', '{question}'),
+])
+
 # 검색 및 출력 함수
 def search_jobs_with_llm(question):
     # 검색된 결과를 LLM에게 전달하기 위한 context 생성
     results = retriever.get_relevant_documents(question)
     context = "\n".join([result.page_content for result in results])
-
+    llm = ChatOpenAI(model='gpt-4o', temperature=0.1)
     # 메모리에서 대화 기록 로드
     memory_variables = st.session_state.memory.load_memory_variables({})
     chat_history = memory_variables.get('chat_history', [])
@@ -99,6 +118,32 @@ def search_jobs_with_llm(question):
     # 응답 생성
     response = chain.invoke({'question': question})
     
+    # 응답을 문자열로 변환 (content 추출)
+    if hasattr(response, 'content'):
+        response_text = response.content
+    else:
+        response_text = str(response)
+
+    # 메모리에 대화 기록 저장
+    st.session_state.memory.save_context(
+        {'input': question},
+        {'output': response_text},
+    )
+
+    return response_text
+
+def process_user_question(question):
+    llm = ChatOpenAI(model='gpt-4o', temperature=0.7)
+    memory_variables = st.session_state.memory.load_memory_variables({})
+    chat_history = memory_variables.get('chat_history', [])
+    chain = (
+        RunnablePassthrough.assign(chat_history=RunnableLambda(lambda _: chat_history))
+        | prompt_qa
+        | llm
+    )
+
+    response = chain.invoke({'question': question})
+
     # 응답을 문자열로 변환 (content 추출)
     if hasattr(response, 'content'):
         response_text = response.content
@@ -135,11 +180,12 @@ with st.sidebar:
 
     # 채용 공고 검색 버튼
     if st.button("채용 공고 검색"):
-        query = f"{selected_loc}에서 {selected_exp}을 채용하는 {selected_job} 공고 알려줘"
+        query = f"{selected_loc}에서 {selected_exp}인 {selected_job} 직무를 채용하는 공고 알려줘"
         st.session_state["messages"].append({
             "role": "user",
-            "content": f"제가 선택한 직무는 {selected_job}, 경력은 {selected_exp}, 지역은 {selected_loc}입니다."
+            "content": f"{selected_loc}에 {selected_exp}인 {selected_job} 직무를 채용하는 공고 알려줘."
         })
+        st.chat_message("user").write(query)
         
         # LLM에 검색 요청
         response = search_jobs_with_llm(query)
@@ -147,31 +193,24 @@ with st.sidebar:
             "role": "assistant",
             "content": response
         })
+        st.chat_message("assistant").write(response)
 
 # 앱 제목 및 설명
-st.title("💬 Chatbot")
+st.title(" Job Search Chatbot")
 st.caption("🚀 A Streamlit chatbot powered by OpenAI")
 
 # 기존 채팅 메시지 출력
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
 
-# 더보기 버튼
-if "displayed_results" in st.session_state and len(st.session_state["displayed_results"]) > 0:
-    if st.button("더 보기"):
-        query = f"{selected_loc}에서 {selected_exp}을 채용하는 {selected_job} 공고 알려줘"
-        response = search_jobs_with_llm(query)
-        st.session_state["messages"].append({
-            "role": "assistant",
-            "content": response
-        })
-
-# 사용자 입력 처리
-if prompt := st.chat_input():
-    st.session_state.messages.append({"role": "user", "content": prompt})
-    st.chat_message("user").write(prompt)
-
-    # OpenAI 응답 생성
-    response = search_jobs_with_llm(prompt)
-    st.session_state.messages.append({"role": "assistant", "content": response})
+# 사용자 질문 입력 처리
+user_input = st.chat_input("궁금한 직무의 질문을 입력하세요:")
+if user_input:
+    st.session_state["messages"].append({"role": "user", "content": user_input})
+    st.chat_message("user").write(user_input)
+    response = process_user_question(user_input)
+    st.session_state["messages"].append({
+        "role": "assistant",
+        "content": response
+    })
     st.chat_message("assistant").write(response)
