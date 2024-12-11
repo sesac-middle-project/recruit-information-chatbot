@@ -158,7 +158,7 @@ if "question" in st.session_state and len(st.session_state["displayed_results"])
 
 # 사용자 질문 입력 처리
 user_input = st.chat_input("질문을 입력하세요:")
-if user_input:
+if user_input :
     st.session_state["messages"].append({"role": "user", "content": user_input})
     if "더 보기" not in user_input:  # 일반 질문 처리
         response = process_user_question(user_input)
