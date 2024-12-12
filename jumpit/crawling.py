@@ -17,7 +17,7 @@ options.add_argument('--disable-dev-shm-usage')
 options.add_argument("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 
 # 직업 리스트
-job_titles = ['데이터 분석', '데이터 엔지니어', 'AI 개발자', '챗봇 개발자', '클라우드 엔지니어', 'API 개발자', '머신러닝 엔지니어', '데이터 사이언티스트']
+job_titles = ['데이터 분석가', '데이터 엔지니어', 'AI 개발자', '챗봇 개발자', '클라우드 엔지니어', 'API 개발자', '머신러닝 엔지니어', '데이터 사이언티스트']
 
 # 크롬 드라이버 경로 설정
 service = Service(executable_path='C:/Users/RMARKET/sesac/project4/recruit-information-chatbot/chromedriver-win64/chromedriver.exe')

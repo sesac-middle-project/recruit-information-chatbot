@@ -1,21 +1,7 @@
 company,title,url,loc,exp,job_name
-부동산플래닛,[데이터분석가] data analyst,https://jumpit.saramin.co.kr/position/38267,서울,신입~20년,데이터 분석
-주식회사 세계입찰,데이터분석가 신입 채용,https://jumpit.saramin.co.kr/position/38636,경기,신입,데이터 분석
-주식회사 세계입찰,데이터분석가 경력 채용,https://jumpit.saramin.co.kr/position/38602,경기,경력 5~20년,데이터 분석
-넛지헬스케어,[캐시워크] 데이터분석 담당 (석사/박사),https://jumpit.saramin.co.kr/position/37816,서울,신입~10년,데이터 분석
-넛지헬스케어,[병역특례] 데이터분석 담당 산업기능요원 모집,https://jumpit.saramin.co.kr/position/37814,서울,신입~2년,데이터 분석
-(주)데이터누리,데이터 분석가,https://jumpit.saramin.co.kr/position/38408,서울,경력 5~10년,데이터 분석
-콜로세움코퍼레이션,데이터 분석가,https://jumpit.saramin.co.kr/position/38662,서울,경력 1~10년,데이터 분석
-퍼플아카데미,데이터 분석가 신입/경력 채용,https://jumpit.saramin.co.kr/position/38390,서울,신입~3년,데이터 분석
-호전실업,"데이터 분석, ai엔지니어 채용 (8~10년)",https://jumpit.saramin.co.kr/position/39187,서울,경력 8~10년,데이터 분석
-호전실업,"데이터 분석, ai엔지니어 채용 (4~7년)",https://jumpit.saramin.co.kr/position/39186,서울,경력 4~7년,데이터 분석
-빗썸코리아,데이터 분석 개발자 경력 채용,https://jumpit.saramin.co.kr/position/39305,서울,경력 4~12년,데이터 분석
-아타드,[인공지능/데이터 분석] 개발자 채용,https://jumpit.saramin.co.kr/position/38308,서울,경력 1~3년,데이터 분석
-이글루코퍼레이션,[연구개발본부] 데이터 분석 엔진 개발 경력 정규직 채용 (6년 ↑),https://jumpit.saramin.co.kr/position/36953,서울,경력 6~10년,데이터 분석
-피아스페이스,영상 분석 시스템 엔지니어 채용,https://jumpit.saramin.co.kr/position/37983,서울,경력 3~20년,데이터 분석
-슈프리마,[슈프리마ai] ai 영상분석 알고리즘 개발 리드 모집,https://jumpit.saramin.co.kr/position/37032,경기,경력 10~25년,데이터 분석
-블루닷,코덱sw엔지니어 (화질분석/신입),https://jumpit.saramin.co.kr/position/37737,서울,신입~2년,데이터 분석
-블루닷,코덱sw엔지니어 (화질분석/경력),https://jumpit.saramin.co.kr/position/37736,서울,경력 2~12년,데이터 분석
+(주)데이터누리,데이터 분석가,https://jumpit.saramin.co.kr/position/38408,서울,경력 5~10년,데이터 분석가
+콜로세움코퍼레이션,데이터 분석가,https://jumpit.saramin.co.kr/position/38662,서울,경력 1~10년,데이터 분석가
+퍼플아카데미,데이터 분석가 신입/경력 채용,https://jumpit.saramin.co.kr/position/38390,서울,신입~3년,데이터 분석가
 엔미디어플랫폼,데이터엔지니어 인재모집,https://jumpit.saramin.co.kr/position/38573,서울,경력 5~12년,데이터 엔지니어
 워트인텔리전스,데이터 엔지니어 (8년 이상),https://jumpit.saramin.co.kr/position/37991,서울,경력 8~12년,데이터 엔지니어
 로이드케이,빅데이터 솔루션 데이터 엔지니어(경력) 채용,https://jumpit.saramin.co.kr/position/38294,경기,경력 5~13년,데이터 엔지니어
@@ -26,20 +12,22 @@ company,title,url,loc,exp,job_name
 (주)이노케어플러스,데이터 엔지니어,https://jumpit.saramin.co.kr/position/35355,서울,경력 3~10년,데이터 엔지니어
 사람인,[사람인] 데이터 엔지니어 (전환형인턴),https://jumpit.saramin.co.kr/position/39038,서울,신입~3년,데이터 엔지니어
 백패커,[아이디어스] 데이터 엔지니어 (data engineer),https://jumpit.saramin.co.kr/position/38103,서울,경력 3~7년,데이터 엔지니어
+호전실업,"데이터 분석, ai엔지니어 채용 (8~10년)",https://jumpit.saramin.co.kr/position/39187,서울,경력 8~10년,데이터 엔지니어
+호전실업,"데이터 분석, ai엔지니어 채용 (4~7년)",https://jumpit.saramin.co.kr/position/39186,서울,경력 4~7년,데이터 엔지니어
 폼즈,[생성ai] 프롬프트 엔지니어 (스테이블 디퓨전 데이터 가공 및 실험),https://jumpit.saramin.co.kr/position/38136,서울,신입~5년,데이터 엔지니어
+딥인사이트,data engineer,https://jumpit.saramin.co.kr/position/39788,경기,신입,데이터 엔지니어
 업스테이지,senior data engineer - llm,https://jumpit.saramin.co.kr/position/39331,경기,경력 7~15년,데이터 엔지니어
-딥인사이트,data engineer,https://jumpit.saramin.co.kr/position/37606,경기,신입,데이터 엔지니어
 엑심베이,data engineer,https://jumpit.saramin.co.kr/position/39145,서울,신입~10년,데이터 엔지니어
-빅웨이브로보틱스,data platform engineer,https://jumpit.saramin.co.kr/position/36941,서울,경력 3~7년,데이터 엔지니어
 바로팜,데이터 엔지니어 경력 채용,https://jumpit.saramin.co.kr/position/38280,서울,경력 5~12년,데이터 엔지니어
-엔티엘헬스케어,ai개발자 연구원 신입 채용,https://jumpit.saramin.co.kr/position/37322,경기,신입,AI 개발자
-웅진,ai개발자 채용,https://jumpit.saramin.co.kr/position/37244,서울,경력 3~20년,AI 개발자
+엔티엘헬스케어,ai개발자 연구원 신입 채용,https://jumpit.saramin.co.kr/position/39615,경기,신입,AI 개발자
+웅진,ai개발자 채용,https://jumpit.saramin.co.kr/position/39422,서울,경력 3~20년,AI 개발자
 피피에스(주),ai개발자,https://jumpit.saramin.co.kr/position/39366,서울,경력 1년,AI 개발자
 (주)에이아이세스,ai 개발자 (지식기반 ai 챗봇) 시니어급 채용,https://jumpit.saramin.co.kr/position/39432,경기,경력 5~10년,AI 개발자
 (주)에이아이세스,ai 개발자 (지식기반 ai 챗봇) 주니어급 채용,https://jumpit.saramin.co.kr/position/39431,경기,신입~5년,AI 개발자
+엔티엘헬스케어,ai 개발자 연구원 경력 채용,https://jumpit.saramin.co.kr/position/39616,경기,경력 3~10년,AI 개발자
 트루엔,ai 개발자,https://jumpit.saramin.co.kr/position/37435,서울,경력 3~12년,AI 개발자
-엔티엘헬스케어,ai 개발자 연구원 경력 채용,https://jumpit.saramin.co.kr/position/37323,경기,경력 3~10년,AI 개발자
-고스트패스,ai 개발자 구인,https://jumpit.saramin.co.kr/position/2437,서울,경력 3~10년,AI 개발자
+딥인사이트,ai 개발자,https://jumpit.saramin.co.kr/position/39784,경기,경력 2~7년,AI 개발자
+네비웍스,ai 개발자(3년 이상),https://jumpit.saramin.co.kr/position/39535,경기,경력 3~10년,AI 개발자
 (주)에이아이세스,ai 개발자 (딥러닝 음성인식 개발) 시니어급 채용,https://jumpit.saramin.co.kr/position/39430,경기,경력 5~10년,AI 개발자
 (주)에이아이세스,ai 개발자 (딥러닝 음성인식 개발) 주니어급 채용,https://jumpit.saramin.co.kr/position/39429,경기,신입~5년,AI 개발자
 (주)에이아이세스,ai 개발자 (지식기반 문서생성) 시니어급 채용,https://jumpit.saramin.co.kr/position/39428,경기,경력 5~10년,AI 개발자
@@ -49,24 +37,27 @@ company,title,url,loc,exp,job_name
 미니레코드,ai 개발자 경력 채용,https://jumpit.saramin.co.kr/position/39113,서울,경력 1~15년,AI 개발자
 미니레코드,ai 개발자 신입 채용,https://jumpit.saramin.co.kr/position/39101,서울,신입,AI 개발자
 에브리치,ai 개발자 채용,https://jumpit.saramin.co.kr/position/37852,서울,경력 3~10년,AI 개발자
-딥인사이트,ai 개발자,https://jumpit.saramin.co.kr/position/37595,경기,경력 2~7년,AI 개발자
-네비웍스,ai 개발자(3년 이상),https://jumpit.saramin.co.kr/position/37227,경기,경력 3~10년,AI 개발자
 옵트에이아이,임베디드 ai 개발자 (c++),https://jumpit.saramin.co.kr/position/38030,서울,신입~12년,AI 개발자
 옵트에이아이,임베디드 ai 개발자 (c++) (병역특례),https://jumpit.saramin.co.kr/position/38031,서울,신입~12년,AI 개발자
 토페스,기술연구소 ai 개발자 신규 채용,https://jumpit.saramin.co.kr/position/39423,경기,경력 3~6년,AI 개발자
-에이알247,자율주행 로봇 ai 개발자,https://jumpit.saramin.co.kr/position/37319,경기,경력 2~10년,AI 개발자
+에이알247,자율주행 로봇 ai 개발자,https://jumpit.saramin.co.kr/position/39508,경기,경력 2~10년,AI 개발자
 이노룰스,[솔루션 제품 개발] llm / 생성형 ai 개발자,https://jumpit.saramin.co.kr/position/37745,서울,경력 3~10년,AI 개발자
+아일리스프런티어,ai 서비스 - 자연어처리 (nlp) / python 엔진 개발 (추가 채용),https://jumpit.saramin.co.kr/position/39770,서울,경력 1~3년,AI 개발자
+에이블테라퓨틱스,인공지능 기획 및 개발자 채용,https://jumpit.saramin.co.kr/position/39740,서울,경력 2~15년,AI 개발자
+제스트주식회사,ai 기반 saas 솔루션 / spring & java 백엔드 개발자,https://jumpit.saramin.co.kr/position/39700,서울,경력 3~8년,AI 개발자
+크레스콤,인공지능 소프트웨어 개발자 채용,https://jumpit.saramin.co.kr/position/39539,경기,경력 1~15년,AI 개발자
 이노룰스,[ai플랫폼팀] 웹 풀스택 개발자(pl 급) 채용,https://jumpit.saramin.co.kr/position/39311,서울,경력 10~15년,AI 개발자
 씨메스,generative ai 및 인공지능 유지 관리 연구,https://jumpit.saramin.co.kr/position/38545,서울,신입~10년,AI 개발자
 씨메스,ai platform 개발자,https://jumpit.saramin.co.kr/position/38638,서울,경력 2~10년,AI 개발자
 씨메스,ai 로보틱스 어플리케이션 소프트웨어 개발자,https://jumpit.saramin.co.kr/position/38392,서울,신입~9년,AI 개발자
-에이블테라퓨틱스,인공지능 기획 및 개발자 채용,https://jumpit.saramin.co.kr/position/38402,서울,경력 2~15년,AI 개발자
 알라딘커뮤니케이션,ai 엔지니어 개발자,https://jumpit.saramin.co.kr/position/38134,서울,경력 5~25년,AI 개발자
 토페스,ai/딥러닝 개발자,https://jumpit.saramin.co.kr/position/37755,경기,경력 1~2년,AI 개발자
 이노룰스,"[ai디지털플랫폼팀] 웹개발자(python, react, 경력 5년 이상) 경력직 채용",https://jumpit.saramin.co.kr/position/37744,서울,경력 5~15년,AI 개발자
-아일리스프런티어,ai 서비스 - 자연어처리 (nlp) / python 엔진 개발 (추가 채용),https://jumpit.saramin.co.kr/position/37591,서울,경력 1~3년,AI 개발자
-크레스콤,인공지능 소프트웨어 개발자 채용,https://jumpit.saramin.co.kr/position/37317,경기,경력 1~15년,AI 개발자
-코넥티브,application sw 개발자,https://jumpit.saramin.co.kr/position/37288,서울,경력 3~12년,AI 개발자
+딥인사이트,ai soc 응용 프로그램 개발자,https://jumpit.saramin.co.kr/position/39786,경기,경력 2~7년,AI 개발자
+미스터블루,"프론트엔드 개발자 (typescript, react)",https://jumpit.saramin.co.kr/position/39783,서울,경력 2~6년,AI 개발자
+펀진,시계열 데이터 ai 모델 개발자 경력직 채용,https://jumpit.saramin.co.kr/position/39744,서울,경력 2~10년,AI 개발자
+포지큐브,언어모델 딥러닝 개발자,https://jumpit.saramin.co.kr/position/39672,서울,신입,AI 개발자
+보스반도체,차량용 기능 안전 (functional safety) software 개발자,https://jumpit.saramin.co.kr/position/39637,경기,경력 3~10년,AI 개발자
 (주)에이아이세스,ai-crm 개발자 (ai기반 crm 솔루션) 시니어급 채용,https://jumpit.saramin.co.kr/position/39434,경기,경력 5~8년,AI 개발자
 (주)에이아이세스,ai-crm 개발자 (ai기반 crm 솔루션) 주니어급 채용,https://jumpit.saramin.co.kr/position/39433,경기,경력 2~5년,AI 개발자
 알지티,window application 개발자 채용,https://jumpit.saramin.co.kr/position/39368,서울,경력 3~5년,AI 개발자
@@ -82,43 +73,41 @@ WATA Inc.,java 백엔드 개발자[wata inc/판교],https://jumpit.saramin.co.kr
 (주)한맥아이피에스,ai/ml 엔지니어 (경력 6년 ~ 10년),https://jumpit.saramin.co.kr/position/39026,대구,경력 6~10년,AI 개발자
 (주)한맥아이피에스,ai/ml 엔지니어 (경력 3년 ~ 5년),https://jumpit.saramin.co.kr/position/39011,대구,경력 3~5년,AI 개발자
 버즈니,[커머스 ai ] ai 백엔드 엔지니어,https://jumpit.saramin.co.kr/position/39016,서울,경력 2~9년,AI 개발자
-다큐브,"ai 엔지니어 (llm, nlp)",https://jumpit.saramin.co.kr/position/38933,서울,경력 5~15년,AI 개발자
 WATA Inc.,iot 어플리케이션 개발자[wata inc/판교],https://jumpit.saramin.co.kr/position/38831,경기,신입~7년,AI 개발자
 슈프리마,embedded linux 및 android bsp 개발자,https://jumpit.saramin.co.kr/position/38798,경기,경력 3~10년,AI 개발자
 브이엔티지,sap bw(bi) 운영 및 개발자 (1년 이상),https://jumpit.saramin.co.kr/position/38656,서울,경력 1~5년,AI 개발자
 피알에스이,[evryai] 백엔드 개발자 채용,https://jumpit.saramin.co.kr/position/38629,강원,경력 1~15년,AI 개발자
 앤씨앤,[middleware2팀] embedded middleware 개발자 모집,https://jumpit.saramin.co.kr/position/38620,경기,경력 5~10년,AI 개발자
-엑스페릭스,android sdk 개발자,https://jumpit.saramin.co.kr/position/38406,경기,경력 7~10년,AI 개발자
+아타드,[인공지능/데이터 분석] 개발자 채용,https://jumpit.saramin.co.kr/position/38308,서울,경력 1~3년,AI 개발자
 WATA Inc.,비전알고리즘 개발 연구원[판교 wata ai],https://jumpit.saramin.co.kr/position/38211,경기,경력 3~16년,AI 개발자
 에이엠,전장 middleware sw 개발자,https://jumpit.saramin.co.kr/position/38207,경기,신입~15년,AI 개발자
 에이엠,전장 firmware sw 개발자,https://jumpit.saramin.co.kr/position/38205,경기,신입~15년,AI 개발자
 에프에스솔루션,컴퓨터 비전 딥러닝/머신러닝 개발자(adas/dms/영상인식) (신입),https://jumpit.saramin.co.kr/position/38159,경기,신입,AI 개발자
 에프에스솔루션,컴퓨터 비전 딥러닝/머신러닝 개발자(adas/dms/영상인식) (3년이상),https://jumpit.saramin.co.kr/position/38160,경기,경력 3~9년,AI 개발자
 에프에스솔루션,컴퓨터 비전 딥러닝/머신러닝 개발자(adas/dms/영상인식) (팀장급),https://jumpit.saramin.co.kr/position/38161,경기,경력 10~15년,AI 개발자
-WATA Inc.,개발 계획 및 개발 진행 pm [wata ai inc/판교],https://jumpit.saramin.co.kr/position/38122,경기,경력 5~20년,AI 개발자
-WATA Inc.,기술개발 총괄 및 리딩 [wata ai inc/판교],https://jumpit.saramin.co.kr/position/38120,경기,경력 8~20년,AI 개발자
-시어스랩,ai 엔지니어,https://jumpit.saramin.co.kr/position/38010,서울,경력 3~10년,AI 개발자
-베스텔라랩,app(react native) 개발자(전문연구요원가능),https://jumpit.saramin.co.kr/position/37940,대구,경력 2~10년,AI 개발자
 비즈톡,카카오톡 상담톡 및 챗봇 서비스 개발자,https://jumpit.saramin.co.kr/position/37883,서울,경력 5~10년,챗봇 개발자
 빗썸코리아,클라우드엔지니어 - aws 서비스 운영,https://jumpit.saramin.co.kr/position/39296,서울,경력 5~10년,클라우드 엔지니어
 골든플래닛,클라우드 엔지니어(팀장급 채용),https://jumpit.saramin.co.kr/position/38133,서울,신입,클라우드 엔지니어
 빗썸코리아,블록체인 클라우드 엔지니어 (시니어),https://jumpit.saramin.co.kr/position/37616,서울,경력 8~12년,클라우드 엔지니어
 빗썸코리아,블록체인 클라우드 엔지니어 (주니어),https://jumpit.saramin.co.kr/position/37615,서울,경력 1~7년,클라우드 엔지니어
+바텍,[바텍] 인프라(시스템 엔지니어) 개발자,https://jumpit.saramin.co.kr/position/3403,경기,신입~20년,클라우드 엔지니어
+엑심베이,네트워크 엔지니어,https://jumpit.saramin.co.kr/position/39169,서울,경력 3~8년,클라우드 엔지니어
+프라이빗테크놀로지,시스템엔지니어  모집,https://jumpit.saramin.co.kr/position/39718,서울,경력 5~20년,클라우드 엔지니어
 (주)미리비트,클라우드 개발자 (5~7년차),https://jumpit.saramin.co.kr/position/39357,서울,경력 3~5년,클라우드 엔지니어
 (주)미리비트,클라우드 개발자 (3~5년차),https://jumpit.saramin.co.kr/position/39348,서울,경력 3~5년,클라우드 엔지니어
 (주)미리비트,클라우드 개발자 (7~10년차),https://jumpit.saramin.co.kr/position/39349,서울,경력 7~10년,클라우드 엔지니어
 피에트,시스템 엔지니어 채용(3~5년),https://jumpit.saramin.co.kr/position/39190,서울,경력 3~5년,클라우드 엔지니어
 피에트,시스템 엔지니어 채용(5~7년),https://jumpit.saramin.co.kr/position/39061,서울,경력 5~7년,클라우드 엔지니어
+에쓰씨케이,[sck 및 관계사] cloud 엔지니어 모집 (경력),https://jumpit.saramin.co.kr/position/38954,서울,경력 3~10년,클라우드 엔지니어
 에듀윌,시스템 엔지니어 (se) 경력직 모집,https://jumpit.saramin.co.kr/position/38680,서울,경력 3~10년,클라우드 엔지니어
 스피디,cloud & 솔루션 엔지니어,https://jumpit.saramin.co.kr/position/38627,경기,경력 3~7년,클라우드 엔지니어
 아타드,클라우드 인프라 엔지니어,https://jumpit.saramin.co.kr/position/38311,서울,경력 1~5년,클라우드 엔지니어
 알로카도스,시니어 클라우드 인프라 엔지니어 채용,https://jumpit.saramin.co.kr/position/37970,서울,경력 3~15년,클라우드 엔지니어
 위버스마인드,it 시스템 엔지니어 인재 모집,https://jumpit.saramin.co.kr/position/37925,서울,경력 5~15년,클라우드 엔지니어
-에쓰씨케이,[sck 및 관계사] cloud 엔지니어 모집 (경력),https://jumpit.saramin.co.kr/position/36762,서울,경력 3~10년,클라우드 엔지니어
+오엠티아이코리아,[경력] 시스템 엔지니어,https://jumpit.saramin.co.kr/position/39779,서울,경력 2~7년,클라우드 엔지니어
 롯데이노베이트,[서울클라우드센터팀] 센터시스템운영 경력사원 채용,https://jumpit.saramin.co.kr/position/39369,서울,경력 4~6년,클라우드 엔지니어
 라포랩스,서버 엔지니어 : 비즈니스 트라이브,https://jumpit.saramin.co.kr/position/39309,서울,경력 3~6년,클라우드 엔지니어
 이파피루스,솔루션 엔지니어(시스템 엔지니어/se) 채용,https://jumpit.saramin.co.kr/position/39284,경기,경력 8~15년,클라우드 엔지니어
-오엠티아이코리아,[경력] 시스템 엔지니어,https://jumpit.saramin.co.kr/position/39067,서울,경력 2~7년,클라우드 엔지니어
 링네트,네트워크 엔지니어 (sdn/aci/dna) [경력16~20],https://jumpit.saramin.co.kr/position/39033,서울,경력 16~20년,클라우드 엔지니어
 링네트,네트워크 엔지니어 (sdn/aci/dna) [경력11~15],https://jumpit.saramin.co.kr/position/39019,서울,경력 11~15년,클라우드 엔지니어
 링네트,네트워크 엔지니어 정규직 채용,https://jumpit.saramin.co.kr/position/39015,경기,경력 2~8년,클라우드 엔지니어
@@ -135,6 +124,12 @@ WATA Inc.,기술개발 총괄 및 리딩 [wata ai inc/판교],https://jumpit.sar
 (주)와이톤,주니어 백엔드 개발자 채용 (신입),https://jumpit.saramin.co.kr/position/39086,서울,신입,API 개발자
 디카르고,java 백엔드 주니어 개발자,https://jumpit.saramin.co.kr/position/38265,서울,경력 3~5년,API 개발자
 엠투클라우드,백엔드 개발자 경력 정규직 채용,https://jumpit.saramin.co.kr/position/37836,서울,경력 6~10년,API 개발자
+에이아이파크,백엔드 개발자(7년 이상),https://jumpit.saramin.co.kr/position/39611,서울,경력 7~10년,API 개발자
+오오티디,패션 sns ootd 플랫폼 백엔드 개발자,https://jumpit.saramin.co.kr/position/39576,서울,경력 2~10년,API 개발자
+팀리미티드,프론트 엔드 개발자,https://jumpit.saramin.co.kr/position/39570,서울,경력 3~5년,API 개발자
+네비웍스,웹 개발자 경력직 채용(3년 이상),https://jumpit.saramin.co.kr/position/39527,경기,경력 3~7년,API 개발자
+디어유,메세징 서비스 개발자 채용,https://jumpit.saramin.co.kr/position/39397,서울,경력 3~7년,API 개발자
+데이터메이커,백엔드 개발자,https://jumpit.saramin.co.kr/position/39392,대전,경력 5~20년,API 개발자
 인졀미,[신입] flutter 앱 & node.js 개발자,https://jumpit.saramin.co.kr/position/39233,서울,신입~4년,API 개발자
 (주)와이톤,이커머스 플랫폼 웹개발자 모집 (경력5년~7년),https://jumpit.saramin.co.kr/position/39115,서울,경력 5~7년,API 개발자
 (주)와이톤,이커머스 플랫폼 웹개발자 모집 (경력2년~3년),https://jumpit.saramin.co.kr/position/39084,서울,경력 2~3년,API 개발자
@@ -148,25 +143,25 @@ WATA Inc.,기술개발 총괄 및 리딩 [wata ai inc/판교],https://jumpit.sar
 버즈니,[홈쇼핑모아] 프론트엔드 엔지니어 (앱 개발자),https://jumpit.saramin.co.kr/position/39017,서울,경력 3~10년,API 개발자
 캐럿글로벌,java 웹개발자 채용,https://jumpit.saramin.co.kr/position/38810,서울,경력 2~15년,API 개발자
 (주)할로와,[자사 플랫폼] 풀스택 개발자 (3~5년차),https://jumpit.saramin.co.kr/position/38776,서울,경력 3~5년,API 개발자
-투비콘,"웹 개발자(asp.net, c#) 채용",https://jumpit.saramin.co.kr/position/37097,서울,신입~5년,API 개발자
 넛지헬스케어,[캐시워크] 백엔드/서버 개발자,https://jumpit.saramin.co.kr/position/37826,서울,경력 4~10년,API 개발자
 소프트넷,java 개발자 채용,https://jumpit.saramin.co.kr/position/37393,서울,경력 3~10년,API 개발자
-(주)이노케어플러스,front-end 개발자,https://jumpit.saramin.co.kr/position/37372,서울,경력 1~3년,API 개발자
-스타일씨코퍼레이션,node.js 개발자 (3년 이상),https://jumpit.saramin.co.kr/position/37358,서울,경력 3~20년,API 개발자
-에이아이파크,백엔드 개발자(7년 이상),https://jumpit.saramin.co.kr/position/37253,서울,경력 7~10년,API 개발자
-네비웍스,웹 개발자 경력직 채용(3년 이상),https://jumpit.saramin.co.kr/position/37221,경기,경력 3~7년,API 개발자
-데이터메이커,백엔드 개발자,https://jumpit.saramin.co.kr/position/37105,대전,경력 5~20년,API 개발자
-디어유,메세징 서비스 개발자 채용,https://jumpit.saramin.co.kr/position/37052,서울,경력 3~7년,API 개발자
-에이아이커넥트,[앱개발] flutter 경력 개발자 채용,https://jumpit.saramin.co.kr/position/36985,서울,경력 1~10년,API 개발자
 소프트베리,evi backend  개발(리더),https://jumpit.saramin.co.kr/position/38249,서울,경력 5~14년,API 개발자
 아인잡,[자사 서비스] hr platform 백엔드 개발 리더 pm (8년 이상),https://jumpit.saramin.co.kr/position/38162,서울,경력 8~15년,API 개발자
 아인잡,"[자사 웹/앱 플랫폼] 백엔드 개발리더 (자바,스프링부트, aws5년+)",https://jumpit.saramin.co.kr/position/37879,서울,경력 7~15년,API 개발자
 아인잡,"[기업부설연구소] 자사 웹/앱 플랫폼 개발팀장 [java, springboot5+]",https://jumpit.saramin.co.kr/position/37880,서울,경력 7~17년,API 개발자
 에이아이매틱스,back end 개발 경력채용,https://jumpit.saramin.co.kr/position/37790,서울,경력 2~10년,API 개발자
 엔카닷컴,back-end 개발,https://jumpit.saramin.co.kr/position/37537,서울,경력 4~8년,API 개발자
-케이더블유이코리아,웹 개발 시니어,https://jumpit.saramin.co.kr/position/37213,서울,경력 2~8년,API 개발자
-마이베네핏,"안드로이드, ios 개발자(경력6~10년)",https://jumpit.saramin.co.kr/position/39475,대전,경력 6~10년,API 개발자
-마이베네핏,"안드로이드, ios 개발자(경력3~5년)",https://jumpit.saramin.co.kr/position/39473,대전,경력 3~5년,API 개발자
+주식회사 애드타입,웹/프론트엔드 개발자 경력직 채용(9년~),https://jumpit.saramin.co.kr/position/39766,서울,경력 9~20년,API 개발자
+주식회사 애드타입,웹/프론트엔드 개발자 경력직 채용(6~8년),https://jumpit.saramin.co.kr/position/39763,서울,경력 6~8년,API 개발자
+주식회사 애드타입,웹/프론트엔드 개발자 경력직 채용(3~5년),https://jumpit.saramin.co.kr/position/39753,서울,경력 3~5년,API 개발자
+이노뎁(주),react 프론트엔드 개발자,https://jumpit.saramin.co.kr/position/39792,서울,경력 5~15년,API 개발자
+위드네트웍스,자사 솔루션 프론트엔드 개발자,https://jumpit.saramin.co.kr/position/39663,서울,경력 4~6년,API 개발자
+딥브레인에이아이,"back-end 개발자(node.js, react, express, next.js)(병특가능)",https://jumpit.saramin.co.kr/position/39694,서울,경력 2~20년,API 개발자
+파킹클라우드,클라우드 java 백엔드 개발자 채용,https://jumpit.saramin.co.kr/position/39574,서울,경력 4~6년,API 개발자
+마이베네핏,"안드로이드, ios 개발자(경력3~5년)",https://jumpit.saramin.co.kr/position/39473,서울,경력 3~5년,API 개발자
+마이베네핏,"안드로이드, ios 개발자(경력6~10년)",https://jumpit.saramin.co.kr/position/39475,서울,경력 6~10년,API 개발자
+디어유,[코스닥상장사] ios 앱 개발자 채용,https://jumpit.saramin.co.kr/position/39400,서울,경력 3~10년,API 개발자
+데이터메이커,웹 그래픽(f/e) 개발자,https://jumpit.saramin.co.kr/position/39394,대전,경력 5~20년,API 개발자
 (주)에이아이세스,프론트엔드 개발자 (5~10년차) 채용,https://jumpit.saramin.co.kr/position/39244,경기,경력 5~10년,API 개발자
 (주)에이아이세스,프론트엔드 개발자 (10~15년차) 채용,https://jumpit.saramin.co.kr/position/39245,경기,경력 10~15년,API 개발자
 아이쿠카,java springboot 백엔드 개발자 (5년 이상 경력),https://jumpit.saramin.co.kr/position/38957,서울,경력 5~15년,API 개발자
@@ -182,7 +177,6 @@ WATA Inc.,기술개발 총괄 및 리딩 [wata ai inc/판교],https://jumpit.sar
 노아시스템즈,프론트엔드 개발자,https://jumpit.saramin.co.kr/position/37872,서울,경력 5~15년,API 개발자
 노아시스템즈,백엔드 개발자,https://jumpit.saramin.co.kr/position/37874,서울,경력 5~15년,API 개발자
 아이티엘,모바일 앱 개발자(병역특례_보충역 지원가능),https://jumpit.saramin.co.kr/position/37863,서울,신입~10년,API 개발자
-딥브레인에이아이,"back-end 개발자(node.js, react, express, next.js)(병특가능)",https://jumpit.saramin.co.kr/position/37772,서울,경력 2~20년,API 개발자
 티피씨인터넷,웹 프론트 개발자 (vue.js / 신입),https://jumpit.saramin.co.kr/position/37577,서울,신입~3년,API 개발자
 티피씨인터넷,웹 프론트 개발자 (vue.js / 3년 이상),https://jumpit.saramin.co.kr/position/34586,서울,경력 3~6년,API 개발자
 플래티어,[그루비 saas 솔루션] 프론트엔드 개발자,https://jumpit.saramin.co.kr/position/37529,서울,경력 1~3년,API 개발자
@@ -190,39 +184,37 @@ WATA Inc.,기술개발 총괄 및 리딩 [wata ai inc/판교],https://jumpit.sar
 브이씨,안드로이드 모바일 app 개발자 (경력3~6년),https://jumpit.saramin.co.kr/position/37504,서울,경력 3~6년,API 개발자
 브이씨,ios 모바일 app 개발자 채용 (경력7~10년),https://jumpit.saramin.co.kr/position/37503,서울,경력 7~10년,API 개발자
 브이씨,ios 모바일 app 개발자 채용 (경력3~6년),https://jumpit.saramin.co.kr/position/37500,서울,경력 3~6년,API 개발자
-블록체인랩스,안드로이드 개발자 (kotlin) 채용,https://jumpit.saramin.co.kr/position/37206,서울,경력 3~10년,API 개발자
-파킹클라우드,클라우드 java 백엔드 개발자 채용,https://jumpit.saramin.co.kr/position/37175,경기,경력 4~6년,API 개발자
-데이터메이커,웹 그래픽(f/e) 개발자,https://jumpit.saramin.co.kr/position/37107,대전,경력 5~20년,API 개발자
-디어유,[코스닥상장사] ios 앱 개발자 채용,https://jumpit.saramin.co.kr/position/37055,서울,경력 3~10년,API 개발자
+천재교육,프론트엔드 개발 (경력 6년 ~ 10년 이하),https://jumpit.saramin.co.kr/position/39835,서울,경력 6~10년,API 개발자
+천재교육,프론트엔드 개발 (경력 2년 ~ 5년 이하),https://jumpit.saramin.co.kr/position/39833,서울,경력 2~5년,API 개발자
+천재교육,프론트엔드 개발 (신입),https://jumpit.saramin.co.kr/position/39831,서울,신입,API 개발자
+에임메드,웹 개발 /운영 (java node js) 경력직,https://jumpit.saramin.co.kr/position/39727,서울,경력 7~10년,API 개발자
+디어유,account & community 개발 팀장급 채용,https://jumpit.saramin.co.kr/position/39396,서울,경력 10~15년,API 개발자
 디어유,payment 개발 담당자(java 기반),https://jumpit.saramin.co.kr/position/38940,서울,경력 3~7년,API 개발자
 NHN Bugs,티켓링크 서비스 담당 백엔드개발 경력 (3년 이상),https://jumpit.saramin.co.kr/position/38806,서울,경력 3~10년,API 개발자
-천재교육,프론트엔드 개발 (경력),https://jumpit.saramin.co.kr/position/38056,서울,경력 2~10년,API 개발자
-천재교육,프론트엔드 개발 (신입),https://jumpit.saramin.co.kr/position/38055,서울,신입,API 개발자
-에임메드,웹 개발 /운영 (java node js) 경력직,https://jumpit.saramin.co.kr/position/37409,서울,경력 7~15년,API 개발자
-블록체인랩스,모바일 앱 소프트웨어 개발 (flutter / ios / android) 채용,https://jumpit.saramin.co.kr/position/37207,서울,경력 3~10년,API 개발자
-디어유,account & community 개발 팀장급 채용,https://jumpit.saramin.co.kr/position/37050,서울,경력 10~15년,API 개발자
+WATA Inc.,개발 계획 및 개발 진행 pm [wata ai inc/판교],https://jumpit.saramin.co.kr/position/38122,경기,경력 5~20년,API 개발자
+WATA Inc.,기술개발 총괄 및 리딩 [wata ai inc/판교],https://jumpit.saramin.co.kr/position/38120,경기,경력 8~20년,API 개발자
+(주)우주조인어스홀딩스,php 플랫폼 백엔드 개발자,https://jumpit.saramin.co.kr/position/39461,경기,경력 2~5년,API 개발자
+엔엑스,[경력] 백엔드 개발자 (관련 경력 3년차 이상) (서울/울산 동시모집),https://jumpit.saramin.co.kr/position/37868,서울,경력 3~15년,API 개발자
 에스디바이오센서,모바일 app개발자(aos) 모집,https://jumpit.saramin.co.kr/position/39133,경기,경력 1~20년,API 개발자
-에스디바이오센서,모바일 app개발자(ios) 모집,https://jumpit.saramin.co.kr/position/37411,경기,경력 3~20년,API 개발자
 인피니티익스체인지코리아,블록체인 지갑 및 defi 서비스 개발자,https://jumpit.saramin.co.kr/position/39055,서울,경력 2~8년,API 개발자
-엔엑스,[경력] 백엔드 개발자 (서울),https://jumpit.saramin.co.kr/position/37868,서울,경력 3~15년,API 개발자
 테크랩스,웹 개발자(php) (브랜드엑셀러레이팅사업부),https://jumpit.saramin.co.kr/position/37778,서울,경력 5~10년,API 개발자
+코보시스,서버 개발자,https://jumpit.saramin.co.kr/position/38643,서울,경력 3~15년,API 개발자
+트럼피아,java backend 서비스 개발자 모집,https://jumpit.saramin.co.kr/position/39622,서울,경력 3~12년,API 개발자
 델레오코리아,[플랫폼개발팀] java senior 개발자,https://jumpit.saramin.co.kr/position/39344,서울,경력 8~20년,API 개발자
 인피니티익스체인지코리아,백엔드 개발자 담당,https://jumpit.saramin.co.kr/position/39054,서울,경력 5~10년,API 개발자
 셀키,백엔드 개발자,https://jumpit.saramin.co.kr/position/38646,서울,경력 4~10년,API 개발자
-코보시스,서버 개발자,https://jumpit.saramin.co.kr/position/38643,서울,경력 3~15년,API 개발자
 럭스로보,be(iot) 개발자,https://jumpit.saramin.co.kr/position/38429,서울,경력 3~12년,API 개발자
 펫박스,e커머스 솔루션 프론트엔드 개발자 채용,https://jumpit.saramin.co.kr/position/38349,서울,경력 5~10년,API 개발자
 스쿨버스,백엔드 및 서버 개발자 채용 (경력 1년 이상),https://jumpit.saramin.co.kr/position/38247,서울,경력 1~9년,API 개발자
 아론티어,[기업부설 연구소] 웹 프론트엔드  개발자,https://jumpit.saramin.co.kr/position/38241,서울,경력 3~10년,API 개발자
-트럼피아,java backend 서비스 개발자 모집,https://jumpit.saramin.co.kr/position/37122,서울,경력 3~12년,API 개발자
 고스트패스,ios native 앱 개발자,https://jumpit.saramin.co.kr/position/12026,광주,경력 3~10년,API 개발자
+지엔에이컴퍼니,[플레이오] python 백엔드 개발,https://jumpit.saramin.co.kr/position/39872,서울,경력 2~6년,API 개발자
+숲,[soop]global 서비스 back-end 개발 (nestjs),https://jumpit.saramin.co.kr/position/39407,경기,경력 3~10년,API 개발자
 넛지헬스케어,[병역특례] 풀스택개발 산업기능요원 모집,https://jumpit.saramin.co.kr/position/37817,서울,신입~2년,API 개발자
-지엔에이컴퍼니,[플레이오] python 백엔드 개발,https://jumpit.saramin.co.kr/position/37723,서울,경력 2~6년,API 개발자
-숲,[soop]global 서비스 back-end 개발 (nestjs),https://jumpit.saramin.co.kr/position/37134,경기,경력 3~10년,API 개발자
 코이랩스,서버 개발 [글로벌 교육 서비스 kokiri],https://jumpit.saramin.co.kr/position/39216,서울,경력 3~10년,API 개발자
-케이더블유이코리아,풀스택 웹 개발 리더,https://jumpit.saramin.co.kr/position/37209,서울,경력 10~15년,API 개발자
-이디그로,[웹개발] 개발팀 팀장,https://jumpit.saramin.co.kr/position/36655,서울,경력 10~15년,API 개발자
+이디그로,[웹개발] 개발팀 팀장,https://jumpit.saramin.co.kr/position/38377,서울,경력 10~15년,API 개발자
 고스트패스,안드로이드 개발 엔지니어 구인,https://jumpit.saramin.co.kr/position/2438,서울,경력 2~10년,API 개발자
+포지큐브,nodejs 백엔드 주니어 개발자,https://jumpit.saramin.co.kr/position/39673,서울,경력 1~3년,API 개발자
 미스고,프론트엔드 개발자 채용,https://jumpit.saramin.co.kr/position/38882,서울,경력 1~15년,API 개발자
 캐럿글로벌,php 웹개발자 채용,https://jumpit.saramin.co.kr/position/36430,서울,경력 2~15년,API 개발자
 하이컴프아이엔티,프론트엔드 개발자 (사원급),https://jumpit.saramin.co.kr/position/38746,경기,경력 1~2년,API 개발자
@@ -232,7 +224,9 @@ NHN Bugs,티켓링크 서비스 담당 백엔드개발 경력 (3년 이상),http
 플래티어,프론트엔드 개발자,https://jumpit.saramin.co.kr/position/38198,서울,경력 5~15년,API 개발자
 위뉴,헬스케어 개발자 팀장급 채용,https://jumpit.saramin.co.kr/position/38176,경기,경력 10~15년,API 개발자
 아이트럭,시니어 프론트엔드 개발자,https://jumpit.saramin.co.kr/position/37704,서울,경력 5~10년,API 개발자
-포지큐브,nodejs 백엔드 주니어 개발자,https://jumpit.saramin.co.kr/position/37305,서울,경력 1~3년,API 개발자
+알비에치,앱 개발자 (고급),https://jumpit.saramin.co.kr/position/39669,경기,경력 7~10년,API 개발자
+알비에치,앱 개발자 (중급),https://jumpit.saramin.co.kr/position/39668,경기,경력 5~7년,API 개발자
+엔엑스,[경력] 웹 프론트엔드 개발자 (관련 경력 3년차 이상) (서울/울산 동시모집),https://jumpit.saramin.co.kr/position/37867,서울,경력 3~15년,API 개발자
 스튜디오갈릴레이,[스튜디오 g] 백엔드 개발자,https://jumpit.saramin.co.kr/position/39285,경기,경력 3~10년,API 개발자
 텐빌리언,앱 개발자 신입 채용,https://jumpit.saramin.co.kr/position/38960,서울,신입,API 개발자
 텐빌리언,앱 개발자 경력 채용,https://jumpit.saramin.co.kr/position/38961,서울,경력 2~5년,API 개발자
@@ -240,23 +234,21 @@ NHN Bugs,티켓링크 서비스 담당 백엔드개발 경력 (3년 이상),http
 하마랩,프론트엔드 개발자(5년 이상),https://jumpit.saramin.co.kr/position/38912,경기,경력 5~10년,API 개발자
 아론티어,[기업부설 연구소] 웹 백엔드 개발자,https://jumpit.saramin.co.kr/position/38242,서울,경력 3~10년,API 개발자
 비즈톡,웹 서비스 자바 개발자,https://jumpit.saramin.co.kr/position/37886,서울,경력 5~10년,API 개발자
-엔엑스,[경력] 웹 프론트엔드 개발자 (서울),https://jumpit.saramin.co.kr/position/37867,서울,경력 3~15년,API 개발자
 에프엘이에스,node.js 개발자 경력직 채용,https://jumpit.saramin.co.kr/position/37717,서울,경력 2~6년,API 개발자
-알비에치,앱 개발자 (고급),https://jumpit.saramin.co.kr/position/37343,경기,경력 7~10년,API 개발자
-알비에치,앱 개발자 (중급),https://jumpit.saramin.co.kr/position/37342,경기,경력 5~7년,API 개발자
 넛지헬스케어,[병역특례] 프론트엔드개발 산업기능요원 모집,https://jumpit.saramin.co.kr/position/37827,서울,신입~2년,API 개발자
 넛지헬스케어,[병역특례] 안드로이드개발 산업기능요원 모집,https://jumpit.saramin.co.kr/position/37818,서울,신입~3년,API 개발자
-어썸잇,모바일 어플리케이션 개발 매니저(경력 2년 - 5년),https://jumpit.saramin.co.kr/position/37088,서울,경력 2~5년,API 개발자
-어썸잇,모바일 앱/웹 개발 매니저 (경력 5년 - 10년),https://jumpit.saramin.co.kr/position/37089,서울,경력 5~10년,API 개발자
+에이치비엠피,"풀스택 앱 개발 (angular, node, react)",https://jumpit.saramin.co.kr/position/38444,서울,경력 5~15년,API 개발자
 오픈소스컨설팅,프론트엔드 개발,https://jumpit.saramin.co.kr/position/38086,서울,경력 5~15년,API 개발자
 휴머스온,backend engineer(마케팅 플랫폼 개발/운영),https://jumpit.saramin.co.kr/position/37590,서울,경력 5~12년,API 개발자
 휴머스온,backend engineer(솔루션 개발/운영),https://jumpit.saramin.co.kr/position/37592,서울,경력 5~12년,API 개발자
-에이치비엠피,"풀스택 앱 개발 (angular, node, react)",https://jumpit.saramin.co.kr/position/36627,서울,경력 5~15년,API 개발자
-휴먼밸런스,자사 서비스 백엔드 개발자 경력직 채용,https://jumpit.saramin.co.kr/position/38956,서울,경력 4~5년,API 개발자
+휴먼밸런스,자사 서비스 백엔드 개발자 경력직 채용,https://jumpit.saramin.co.kr/position/39582,서울,경력 4~5년,API 개발자
+누리인포스,백엔드 개발자 (5년이상) 모집,https://jumpit.saramin.co.kr/position/39414,경기,경력 5~10년,API 개발자
 넥스트유니콘,nudx팀 back-end(백엔드 개발자),https://jumpit.saramin.co.kr/position/38971,서울,경력 3~8년,API 개발자
 티피씨인터넷,서버/백엔드 개발자 (node.js / 6~8년),https://jumpit.saramin.co.kr/position/37850,서울,경력 6~8년,API 개발자
 티피씨인터넷,서버/백엔드 개발자 (node.js / 3-5년),https://jumpit.saramin.co.kr/position/37567,서울,경력 3~5년,API 개발자
-누리인포스,백엔드 개발자 (5년이상) 모집,https://jumpit.saramin.co.kr/position/37237,경기,경력 5~10년,API 개발자
+주식회사리본솔루션,flutter 개발자,https://jumpit.saramin.co.kr/position/39569,인천,신입~5년,API 개발자
+레플리,안드로이드 개발자,https://jumpit.saramin.co.kr/position/39704,서울,경력 1~10년,API 개발자
+지로,[드롭샷스톡] 백엔드 개발자,https://jumpit.saramin.co.kr/position/39575,서울,경력 3~5년,API 개발자
 핀크,[하나금융그룹 자회사] 인증솔루션 서버개발자 (8년이상),https://jumpit.saramin.co.kr/position/39444,서울,경력 8~15년,API 개발자
 핀크,[하나금융그룹 자회사] 인증솔루션 서버개발자 (3년이상),https://jumpit.saramin.co.kr/position/39443,서울,경력 3~7년,API 개발자
 테이텀,프론트엔드 개발자 (경력 3년~5년),https://jumpit.saramin.co.kr/position/39292,서울,경력 3~5년,API 개발자
@@ -271,31 +263,31 @@ NHN Bugs,티켓링크 서비스 담당 백엔드개발 경력 (3년 이상),http
 엔카닷컴,시니어 프론트엔드 개발자 (5년이상),https://jumpit.saramin.co.kr/position/38338,서울,경력 5~10년,API 개발자
 테이텀,백엔드 개발자 (경력 3년~5년),https://jumpit.saramin.co.kr/position/38271,서울,경력 3~5년,API 개발자
 캔랩코리아,서버/백엔드 개발자 채용,https://jumpit.saramin.co.kr/position/37526,서울,경력 2~12년,API 개발자
-하이퍼러닝,풀 스택 개발자,https://jumpit.saramin.co.kr/position/37333,인천,경력 3~30년,API 개발자
-더쇼소프트웨어,게임 백엔드 개발자(경력11~15년),https://jumpit.saramin.co.kr/position/37017,서울,경력 11~15년,API 개발자
-더쇼소프트웨어,게임 백엔드 개발자(경력5~10년),https://jumpit.saramin.co.kr/position/36994,서울,경력 5~10년,API 개발자
 세나테크놀로지,웹 개발 관리자 채용,https://jumpit.saramin.co.kr/position/39278,서울,경력 7~10년,API 개발자
+시어스랩,백엔드 개발 총괄,https://jumpit.saramin.co.kr/position/39631,서울,경력 7~10년,API 개발자
 이스트소프트,[estsoft] llm 머신러닝 엔지니어 (경력),https://jumpit.saramin.co.kr/position/38371,서울,경력 3~7년,머신러닝 엔지니어
 이스트소프트,[estsoft] 음성 인식(stt) 머신러닝 엔지니어 (경력),https://jumpit.saramin.co.kr/position/38690,서울,경력 3~7년,머신러닝 엔지니어
 라이앤캐처스,[추천엔지니어 ml]추천엔지니어(경력) 모집,https://jumpit.saramin.co.kr/position/37561,서울,경력 5~10년,머신러닝 엔지니어
 엠트리센,머신 러닝 엔지니어 정규직 채용,https://jumpit.saramin.co.kr/position/38221,서울,경력 3~10년,머신러닝 엔지니어
 덴컴,ml optimization 엔지니어,https://jumpit.saramin.co.kr/position/38172,서울,신입~6년,머신러닝 엔지니어
 딥브레인에이아이,머신러닝/딥러닝 엔지니어,https://jumpit.saramin.co.kr/position/37770,서울,경력 3~20년,머신러닝 엔지니어
-보스반도체,ai sw 개발 엔지니어 [경력7~11년],https://jumpit.saramin.co.kr/position/37598,경기,경력 7~11년,머신러닝 엔지니어
-보스반도체,ai sw 개발 엔지니어 [경력11~15년],https://jumpit.saramin.co.kr/position/37600,경기,경력 11~15년,머신러닝 엔지니어
-보스반도체,ai sw 개발 엔지니어 [경력3~7년],https://jumpit.saramin.co.kr/position/37596,경기,경력 3~7년,머신러닝 엔지니어
+보스반도체,ai sw 개발 엔지니어 [경력11~15년],https://jumpit.saramin.co.kr/position/39635,경기,경력 11~15년,머신러닝 엔지니어
+보스반도체,ai sw 개발 엔지니어 [경력7~11년],https://jumpit.saramin.co.kr/position/39634,경기,경력 7~11년,머신러닝 엔지니어
+보스반도체,ai sw 개발 엔지니어 [경력3~7년],https://jumpit.saramin.co.kr/position/39633,경기,경력 3~7년,머신러닝 엔지니어
+플라잎,machine learning engineer(전문연구요원),https://jumpit.saramin.co.kr/position/39468,경기,경력 3~5년,머신러닝 엔지니어
 (주)글로벌시스템스,ai 분야 연구개발 소프트웨어 (s/w) 경력 모집 공고,https://jumpit.saramin.co.kr/position/38930,대전,경력 4~10년,머신러닝 엔지니어
 에이젠글로벌,ml engineer,https://jumpit.saramin.co.kr/position/38005,서울,경력 5~20년,머신러닝 엔지니어
-플라잎,machine learning engineer(전문연구요원),https://jumpit.saramin.co.kr/position/37186,경기,경력 3~5년,머신러닝 엔지니어
-딥인사이트,ai soc 응용 프로그램 개발자,https://jumpit.saramin.co.kr/position/37599,경기,경력 2~7년,머신러닝 엔지니어
 사람인,[사람인] ai 서비스 개발(석사 신입 지원 가능),https://jumpit.saramin.co.kr/position/39060,서울,경력 3~8년,머신러닝 엔지니어
 다우기술,ai 서비스 개발,https://jumpit.saramin.co.kr/position/38787,경기,경력 10~15년,머신러닝 엔지니어
 넥서스커뮤니티,ai 개발(stt/llm 모델 연구 및 개발),https://jumpit.saramin.co.kr/position/38069,서울,경력 7~15년,머신러닝 엔지니어
-포지큐브,vision deep learning 기술 개발,https://jumpit.saramin.co.kr/position/37306,서울,신입~5년,머신러닝 엔지니어
+포지큐브,vision deep learning 기술 개발,https://jumpit.saramin.co.kr/position/39674,서울,신입~5년,머신러닝 엔지니어
 인사이터,(경력 2~5년) 데이터 사이언티스트를 모십니다.,https://jumpit.saramin.co.kr/position/38922,서울,경력 2~5년,데이터 사이언티스트
-엑셈,데이터 사이언티스트(5년 이상),https://jumpit.saramin.co.kr/position/37385,서울,경력 5~15년,데이터 사이언티스트
+바로팜,데이터 사이언티스트 (전문연구요원),https://jumpit.saramin.co.kr/position/39777,서울,경력 1~10년,데이터 사이언티스트
+주식회사 애드타입,데이터 사이언티스트 경력직 채용(9년~),https://jumpit.saramin.co.kr/position/39765,서울,경력 9~20년,데이터 사이언티스트
+주식회사 애드타입,데이터 사이언티스트 경력직 채용(6~8년),https://jumpit.saramin.co.kr/position/39756,서울,경력 6~8년,데이터 사이언티스트
+주식회사 애드타입,데이터 사이언티스트 경력직 채용(3~5년),https://jumpit.saramin.co.kr/position/39746,서울,경력 3~5년,데이터 사이언티스트
+더블미디어,데이터 사이언티스트 모집,https://jumpit.saramin.co.kr/position/39823,서울,경력 2~10년,데이터 사이언티스트
+엑셈,데이터 사이언티스트(5년 이상),https://jumpit.saramin.co.kr/position/39728,서울,경력 5~15년,데이터 사이언티스트
 진스토리코리아,데이터 사이언티스트,https://jumpit.saramin.co.kr/position/23549,서울,신입~3년,데이터 사이언티스트
-바이오에이아이,ai/빅데이터 분야 데이터 사이언티스트,https://jumpit.saramin.co.kr/position/36664,서울,경력 3~20년,데이터 사이언티스트
-다큐브,데이터 사이언티스트(ds),https://jumpit.saramin.co.kr/position/38932,서울,경력 1~10년,데이터 사이언티스트
 브이피피랩,데이터 사이언티스트,https://jumpit.saramin.co.kr/position/37633,제주,경력 5~15년,데이터 사이언티스트
 알티엠,데이터 사이언티스트 (시계열),https://jumpit.saramin.co.kr/position/38037,서울,경력 3~10년,데이터 사이언티스트
