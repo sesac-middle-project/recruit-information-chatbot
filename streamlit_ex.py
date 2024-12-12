@@ -9,8 +9,8 @@ from langchain_text_splitters import CharacterTextSplitter
 import re
 from dotenv import load_dotenv
 
-from langchain_teddynote import logging
-logging.langsmith("GPT-4o")
+# from langchain_teddynote import logging
+# logging.langsmith("GPT-4o")
 
 # 환경 변수 로드
 load_dotenv()
@@ -61,15 +61,11 @@ system_message = """
     3. 우선순위 기준
     - 공고 제목에 직무 키워드가 포함된 경우를 우선적으로 출력해.
     - 경력 수준에 신입, 경력이 모두 포함된 경우, 신입일 때와 경력일 때 모두 출력해도 돼.
-    4. 공고는 질문 한 번에 다섯 개씩 출력해.
-    5. 중복 방지
-    - memory에 저장되어 있는 공고는 같은 세션에서 다시는 출력하지 마.
-    - 남아 있는 공고가 다섯 개 미만이라면, 중복 없이 남아 있는 모든 공고를 출력해.
-    6. 채용 공고를 가져온 사이트는 jobkorea, saramin, jumpit, wanted로 네 개가 있어
-    - 한 번의 출력에 최대한 많은 사이트가 들어갈 수 있도록 출력해.
+    4. 중복 방지
+    - 앞의 답변을 저장해두고 다음에 조회할때 답변한 값들은 제외시켜줘 근데 저장한 답변을 출력하지마 이미 표로 출력중이야.
+    5. 채용 공고를 가져온 사이트는 jobkorea, saramin, jumpit, wanted로 네 개가 있어
     - 예를 들어, 다섯 개의 채용 공고를 출력한다면 jobkorea 1개, saramin 2개, jumpit 1개, wanted 1개처럼 골고루 들어가면 좋아.
-    - 하지만 특정 사이트에 남아있는 채용 공고가 없다면 절대로 memory에 저장된 공고는 출력하지 말고 다른 사이트들로만 출력해.
-    7. 출력 형식은 Streamlit의 `st.markdown()` 함수와 호환되는 Markdown 표 형식이어야 하며, 다음과 같은 형식을 사용해:
+    6. 출력 형식은 Streamlit의 `st.markdown()` 함수와 호환되는 Markdown 표 형식이어야 하며, 다음과 같은 형식을 사용해:
 
 
     | idx | 회사이름 | 공고이름 | 지역 | 사이트 | URL |
