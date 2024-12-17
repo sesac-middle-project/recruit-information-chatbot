@@ -1,0 +1,66 @@
+[
+    {
+        "role": "user",
+        "content": "서울에서 신입인 데이터 분석가 직무를 채용하는 공고 알려줘"
+    },
+    {
+        "role": "ai",
+        "content": "| idx | 회사이름 | 공고이름 | 지역 | 사이트 | URL |\n|-----|----------|----------|------|-------|-----|\n| 1   | 기어세컨드 | 데이터 분석가 채용 | 서울 | jobkorea | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/45909022?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=1) |\n| 2   | 퍼플아카데미 | 데이터 분석가 (신입/경력) | 서울 | jobkorea | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46019453?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=6) |\n| 3   | 스카이오토넷 | (주)스카이오토넷 - 데이터 분석가 채용 | 서울 | jobkorea | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46084949?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=14) |\n| 4   | 넛지헬스케어 | 데이터분석가 | 서울 | wanted | [URL](https://www.wanted.co.kr/wd/157552) |\n| 5   | 넛지헬스케어 | 데이터분석가 (병역특례_현역/보충역) | 서울 | wanted | [URL](https://www.wanted.co.kr/wd/180914) |"
+    },
+    {
+        "role": "user",
+        "content": "서울에서 신입인 데이터 분석가 직무를 채용하는 공고 알려줘"
+    },
+    {
+        "role": "ai",
+        "content": "| idx | 회사이름 | 공고이름 | 지역 | 사이트 | URL |\n|-----|----------|----------|------|-------|-----|\n| 1   | 부동산플래닛 | [데이터분석가] data analyst 채용 | 서울 | jobkorea | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/45833843?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=18) |\n| 2   | 아이넷캅 | [신입/경력] 안드로이드 앱(악성코드) 분석가 채용(내일채움공제가능) | 서울 | jobkorea | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/45811211?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=32) |\n| 3   | 에이브랩스 | 데이터 분석 (data scientist) 채용 | 서울 | jobkorea | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46057474?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=35) |\n| 4   | 스프링컴즈 | [스프링컴즈] 모바일게임 데이터 분석가 채용(신입/경력) | 서울 | gamejob | [URL](https://www.gamejob.co.kr/List_GI/GIB_Read.asp?GI_No=253890) |\n| 5   | 와이피랩스 | [산업기능요원(병역특례, 보충역)] 데이터 엔지니어 | 서울 | wanted | [URL](https://www.wanted.co.kr/wd/219655) |"
+    },
+    {
+        "role": "user",
+        "content": "서울에서 신입인 데이터 분석가 직무를 채용하는 공고 알려줘"
+    },
+    {
+        "role": "ai",
+        "content": "| idx | 회사이름 | 공고이름 | 지역 | 사이트 | URL |\n|-----|----------|----------|------|-------|-----|\n| 1   | 엔에스에이치씨 | (주)nshc 위협분석 연구소(threatrecon) 신입/경력 연구원 | 서울 | saramin | [URL](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=49189156&location=ts&searchword=%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D%EA%B0%80&searchType=search&paid_fl=n&search_uuid=07745e39-d66c-45d1-bb94-0bf48bb3a80f) |\n| 2   | 서울대학교병원 | 연구과제참여 - 머신/딥러닝 기반 의료영상분석 채용 공고 | 서울 | saramin | [URL](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=49233476&location=ts&searchword=%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D%EA%B0%80&searchType=search&paid_fl=n&search_uuid=3f56bea6-426d-438b-93d8-11b3ccb32701) |\n| 3   | 다래전략사업화센터 | 기계·전자·화학·바이오 특허컨설팅, 조사분석, 기술평가 채용 | 서울 | saramin | [URL](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=49411358&location=ts&searchword=%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D%EA%B0%80&searchType=search&paid_fl=n&search_uuid=3f56bea6-426d-438b-93d8-11b3ccb32701) |\n| 4   | 넷스루 | 데이터솔루션엔지니어 수행 팀원 담당자(신입) | 서울 | wanted | [URL](https://www.wanted.co.kr/wd/245839) |\n| 5   | 두잇 | [전문연구요원(석사)] Software Engineer / Data Analyst | 서울 | wanted | [URL](https://www.wanted.co.kr/wd/241921) |"
+    },
+    {
+        "role": "user",
+        "content": "서울에서 신입인 데이터 분석가 직무를 채용하는 공고 알려줘"
+    },
+    {
+        "role": "ai",
+        "content": "현재 제공할 수 있는 새로운 공고가 없습니다. 이전에 제공된 공고를 참고해 주세요."
+    },
+    {
+        "role": "user",
+        "content": "서울에서 경력인 데이터 엔지니어 직무를 채용하는 공고 알려줘"
+    },
+    {
+        "role": "ai",
+        "content": "| idx | 회사이름 | 공고이름 | 지역 | 사이트 | URL |\n|-----|----------|----------|------|-------|-----|\n| 1   | 아이티원 | [컴퓨터수리] as 외근 엔지니어 모집 ( pc.노트북/데이터복구/초보자교육가능/경력자우대 ) | 서울 | jobkorea | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/45957262?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&listno=102) |\n| 2   | 비바리퍼블리카 | [토스페이먼츠] data engineer | 서울 | jobkorea | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46023017?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&listno=120) |\n| 3   | 컴퓨터수리 | 데이터복구 엔지니어 모십니다. | 서울 | jobkorea | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46090031?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&listno=139) |\n| 4   | 컴퓨터수리 | 데이터복구 엔지니어 모집 [워라밸] | 서울 | jobkorea | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46090512?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&listno=140) |\n| 5   | 엔미디어플랫폼 | 데이터엔지니어 인재모집 | 서울 | jumpit | [URL](https://jumpit.saramin.co.kr/position/38573) |"
+    },
+    {
+        "role": "user",
+        "content": "지금까지 알려준 공고들을 전부 알려줘"
+    },
+    {
+        "role": "ai",
+        "content": "| idx | 회사이름 | 공고이름 | 지역 | 직무 | URL |\n|-----|----------|----------|------|-----|-----|\n| 1   | 기어세컨드 | 데이터 분석가 채용 | 서울 | 데이터 분석가 | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/45909022?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=1) |\n| 2   | 퍼플아카데미 | 데이터 분석가 (신입/경력) | 서울 | 데이터 분석가 | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46019453?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=6) |\n| 3   | 스카이오토넷 | (주)스카이오토넷 - 데이터 분석가 채용 | 서울 | 데이터 분석가 | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46084949?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=14) |\n| 4   | 넛지헬스케어 | 데이터분석가 | 서울 | 데이터 분석가 | [URL](https://www.wanted.co.kr/wd/157552) |\n| 5   | 넛지헬스케어 | 데이터분석가 (병역특례_현역/보충역) | 서울 | 데이터 분석가 | [URL](https://www.wanted.co.kr/wd/180914) |\n| 6   | 부동산플래닛 | [데이터분석가] data analyst 채용 | 서울 | 데이터 분석가 | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/45833843?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=18) |\n| 7   | 아이넷캅 | [신입/경력] 안드로이드 앱(악성코드) 분석가 채용(내일채움공제가능) | 서울 | 데이터 분석가 | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/45811211?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=32) |\n| 8   | 에이브랩스 | 데이터 분석 (data scientist) 채용 | 서울 | 데이터 분석가 | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46057474?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%EC%84%9D%EA%B0%80&listno=35) |\n| 9   | 스프링컴즈 | [스프링컴즈] 모바일게임 데이터 분석가 채용(신입/경력) | 서울 | 데이터 분석가 | [URL](https://www.gamejob.co.kr/List_GI/GIB_Read.asp?GI_No=253890) |\n| 10  | 와이피랩스 | [산업기능요원(병역특례, 보충역)] 데이터 엔지니어 | 서울 | 데이터 분석가 | [URL](https://www.wanted.co.kr/wd/219655) |\n| 11  | 엔에스에이치씨 | (주)nshc 위협분석 연구소(threatrecon) 신입/경력 연구원 | 서울 | 데이터 분석가 | [URL](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=49189156&location=ts&searchword=%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D%EA%B0%80&searchType=search&paid_fl=n&search_uuid=07745e39-d66c-45d1-bb94-0bf48bb3a80f) |\n| 12  | 서울대학교병원 | 연구과제참여 - 머신/딥러닝 기반 의료영상분석 채용 공고 | 서울 | 데이터 분석가 | [URL](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=49233476&location=ts&searchword=%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D%EA%B0%80&searchType=search&paid_fl=n&search_uuid=3f56bea6-426d-438b-93d8-11b3ccb32701) |\n| 13  | 다래전략사업화센터 | 기계·전자·화학·바이오 특허컨설팅, 조사분석, 기술평가 채용 | 서울 | 데이터 분석가 | [URL](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=49411358&location=ts&searchword=%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D%EA%B0%80&searchType=search&paid_fl=n&search_uuid=3f56bea6-426d-438b-93d8-11b3ccb32701) |\n| 14  | 넷스루 | 데이터솔루션엔지니어 수행 팀원 담당자(신입) | 서울 | 데이터 분석가 | [URL](https://www.wanted.co.kr/wd/245839) |\n| 15  | 두잇 | [전문연구요원(석사)] Software Engineer / Data Analyst | 서울 | 데이터 분석가 | [URL](https://www.wanted.co.kr/wd/241921) |\n| 16  | 아이티원 | [컴퓨터수리] as 외근 엔지니어 모집 ( pc.노트북/데이터복구/초보자교육가능/경력자우대 ) | 서울 | 데이터 엔지니어 | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/45957262?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&listno=102) |\n| 17  | 비바리퍼블리카 | [토스페이먼츠] data engineer | 서울 | 데이터 엔지니어 | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46023017?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&listno=120) |\n| 18  | 컴퓨터수리 | 데이터복구 엔지니어 모십니다. | 서울 | 데이터 엔지니어 | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46090031?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&listno=139) |\n| 19  | 컴퓨터수리 | 데이터복구 엔지니어 모집 [워라밸] | 서울 | 데이터 엔지니어 | [URL](https://www.jobkorea.co.kr/Recruit/GI_Read/46090512?Oem_Code=C1&logpath=1&stext=%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&listno=140) |\n| 20  | 엔미디어플랫폼 | 데이터엔지니어 인재모집 | 서울 | 데이터 엔지니어 | [URL](https://jumpit.saramin.co.kr/position/38573) |"
+    },
+    {
+        "role": "user",
+        "content": "서울에서 경력인 데이터 사이언티스트 직무를 채용하는 공고 알려줘"
+    },
+    {
+        "role": "ai",
+        "content": "| idx | 회사이름 | 공고이름 | 지역 | 사이트 | URL |\n|-----|----------|----------|------|-------|-----|\n| 1   | 알티엠 | 데이터 사이언티스트 (시계열) | 서울 | jumpit | [URL](https://jumpit.saramin.co.kr/position/38037) |\n| 2   | 주식회사빅밸류 | [빅밸류] data scientist(공통) 모집 | 서울 | saramin | [URL](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=49417709&location=ts&searchword=%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=a867ffbe-cfd6-43d5-b44b-cd51daaf6050) |\n| 3   | 한화시스템 | data scientist 경력사원 채용 | 서울 | saramin | [URL](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=49483518&location=ts&searchword=%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=a867ffbe-cfd6-43d5-b44b-cd51daaf6050) |\n| 4   | 엑셈 | [코스닥상장사]데이터 사이언티스트(5년 이상) | 서울 | saramin | [URL](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=49267752&location=ts&searchword=%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=a867ffbe-cfd6-43d5-b44b-cd51daaf6050) |\n| 5   | 델타엑스 | 딥러닝/3d 비전/data scientist 병역특례(전문연구요원) | 서울 | saramin | [URL](https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=49503732&location=ts&searchword=%EB%8D%B0%EC%9D%B4%ED%84%B0+%EC%82%AC%EC%9D%B4%EC%96%B8%ED%8B%B0%EC%8A%A4%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=a867ffbe-cfd6-43d5-b44b-cd51daaf6050) |"
+    },
+    {
+        "role": "user",
+        "content": "데이터 사이언티스트가 뭐야?"
+    },
+    {
+        "role": "ai",
+        "content": "데이터 사이언티스트는 대량의 데이터에서 의미 있는 정보를 추출하고, 이를 통해 비즈니스 문제를 해결하는 전문가입니다. 데이터 사이언티스트는 다양한 통계적 기법, 머신러닝 알고리즘, 데이터 시각화 기술을 활용하여 데이터를 분석하고 해석합니다.\n\n**주요 업무 및 책임:**\n- 데이터 수집 및 전처리: 다양한 출처에서 데이터를 수집하고, 분석 가능한 형태로 정리합니다.\n- 데이터 분석 및 모델링: 통계적 기법과 머신러닝 알고리즘을 사용하여 데이터를 분석하고 예측 모델을 구축합니다.\n- 데이터 시각화: 분석 결과를 이해하기 쉽게 시각화하여 전달합니다.\n- 비즈니스 인사이트 제공: 분석 결과를 바탕으로 비즈니스 의사결정에 필요한 인사이트를 제공합니다.\n\n**필요한 역량:**\n- 학력: 일반적으로 통계학, 컴퓨터 과학, 수학, 데이터 과학 관련 전공의 학사 이상의 학력이 요구됩니다.\n- 경험: 데이터 분석, 머신러닝 모델 개발 등의 실무 경험이 필요합니다.\n- 기술: Python, R 등의 프로그래밍 언어, SQL, 데이터 시각화 도구(Tableau, Power BI 등), 머신러닝 라이브러리(scikit-learn, TensorFlow 등)에 대한 숙련도가 필요합니다.\n- 문제 해결 능력과 비즈니스 이해도: 데이터 기반으로 문제를 해결하고, 비즈니스에 적용할 수 있는 능력."
+    }
+]
